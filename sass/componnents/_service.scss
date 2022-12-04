@@ -1,0 +1,40 @@
+.service {
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../images/ser_bg.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+
+    .service_text {
+        // display: flex;
+        // justify-content: center;
+        margin-top: 20rem;
+
+        h1 {
+            color: #ffffff;
+        }
+
+        p {
+            max-width: 48rem;
+            color: #ffffff;
+        }
+    }
+    .service_item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 6.5rem;
+        img{
+            width: unset;
+            padding-right: 5rem;
+        }
+        .service_item_text{
+            h3{
+                color: #fc9e20;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+            small{
+                color: #ffffff;
+                max-width: 46rem;
+                display: block;
+            }
+        }
+    }
+}

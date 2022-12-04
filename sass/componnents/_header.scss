@@ -1,0 +1,36 @@
+.navbar {
+    padding: 30px 0;
+    border-bottom: .3rem solid #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+
+    .menu_bar {
+
+        .navbar-nav {
+            // :first-child a {
+            //     margin-left: 0;
+            // }
+
+            .nav-link {
+                font-size: 1.8rem;
+                font-weight: 700;
+                color: #ffffff;
+                margin-left: 2rem;
+                text-transform: uppercase;
+
+            }
+
+            .active {
+                color: #fba419;
+            }
+
+            :hover {
+                color: #fba419;
+            }
+        }
+
+
+    }
+}

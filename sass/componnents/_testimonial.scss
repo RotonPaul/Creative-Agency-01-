@@ -1,0 +1,44 @@
+.testimonial {
+    .about_text {
+        text-align: center;
+    }
+
+    .clients_slide {
+        .client_item {
+            display: flex;
+            img {
+                width: unset;
+                margin-right: 5rem;
+            }
+
+            .client_text {
+                position: relative;
+
+                i {
+                    font-size: 3rem;
+                    color: #565656;
+                    margin-right: 2rem;
+                    position: absolute;
+                   
+                }
+                p{
+                   margin-left: 4rem;
+                }
+                h4{
+                    text-transform: uppercase;
+                    margin-left: 4rem;
+                    padding-top: 5rem;
+                }
+            }
+        }
+        .owl-nav{
+            text-align: center;
+            .owl-prev,
+            .owl-next{
+                font-size: 4rem;
+                margin-left: 3rem;
+            }
+        }
+    }
+   
+}

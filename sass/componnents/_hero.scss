@@ -1,0 +1,38 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../images/hero.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+
+    .hero_text {
+        padding: 10rem 0;
+
+        h1 {
+            color: #ffffff;
+
+            span {
+                color: #fba419;
+            }
+        }
+
+        p {
+            max-width: 56rem;
+            color: #c6c6c6;
+        }
+
+        .hero_btn {
+            padding: 1.5rem 3rem;
+            background-color: #fba419;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: 700;
+            border-radius: 5rem;
+            margin-top: 6rem;
+
+        }
+
+        .hero_btn:hover {
+            background-color: #3f2905c7;
+            transition: all linear 0.5s;
+
+        }
+    }
+}

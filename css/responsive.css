@@ -1,0 +1,368 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* @media (min-width: 250px) and (max-width:575px) {} */
+@media (min-width: 250px) and (max-width:575px) {
+    html {
+        font-size: 45.5%;
+    }
+
+    .row {
+        --bs-gutter-y: 2rem;
+    }
+
+    .menu_btn i {
+        color: #fba419;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding-bottom: 0;
+        padding-bottom: 2rem;
+    }
+
+    .navbar-toggler {
+        background-color: aliceblue;
+    }
+
+    .menu_bar ul {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.748);
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+
+    .about_text {
+        text-align: center;
+    }
+
+    .about_text .about_text_1 {
+        justify-content: center;
+    }
+
+    .about_text .about_text_1 i {
+        font-size: 2rem;
+    }
+
+    .about_text small {
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+    .service .service_text {
+        margin-top: 0rem;
+        text-align: center;
+
+    }
+
+    .service .service_text p {
+        max-width: 60%;
+        margin: auto;
+    }
+
+    .service_right {
+        margin-top: 5rem;
+    }
+
+    .work .work_left .row {
+        --bs-gutter-x: 1rem;
+    }
+
+    .work .work_right {
+        padding-left: 0rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .work .work_left .work_img .work_overley small {
+        display: block;
+    }
+
+    .work .work_right ul {
+        margin-top: 3rem;
+        margin-left: 15%;
+    }
+
+    .service .service_item img {
+        padding-right: 0rem;
+        margin: auto;
+    }
+
+    .process .procces_row_2 h4 {
+        margin: auto;
+        padding-top: 2rem;
+    }
+
+    .team_img {
+        margin-top: 2rem;
+    }
+
+    .study .study_img .study_overley {
+        padding-top: 2rem;
+    }
+
+    .study .study_img .study_overley h4 {
+        margin-top: 25%;
+    }
+
+    .testimonial .clients_slide .client_item img {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 0rem;
+        border-radius: 100%;
+    }
+
+    .testimonial .clients_slide .client_item .client_text p {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+
+    .contact .contact_left {
+        padding: 10rem;
+    }
+
+    .contact .contact_right {
+        text-align: center;
+    }
+
+    .contact .contact_right .contact_items {
+        margin-left: 23%;
+    }
+
+    .mobile {
+        padding-left: 4rem;
+    }
+}
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width:768px) {} */
+@media (min-width: 576px) and (max-width:768px) {
+    html {
+        font-size: 45.5%;
+    }
+
+    .menu_btn i {
+        color: #fba419;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding-bottom: 0;
+        padding-bottom: 2rem;
+    }
+
+    .navbar-toggler {
+        background-color: aliceblue;
+    }
+
+    .menu_bar ul {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.748);
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+
+    .about_text {
+        text-align: center;
+    }
+
+    .about_text .about_text_1 {
+        justify-content: center;
+    }
+
+    .about_text .about_text_1 i {
+        font-size: 2rem;
+    }
+
+    .about_text small {
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+    .service .service_text {
+        margin-top: 0rem;
+        text-align: center;
+
+    }
+
+    .service .service_text p {
+        max-width: 60%;
+        margin: auto;
+    }
+
+    .service_right {
+        margin-top: 5rem;
+    }
+
+    .work .work_left .row {
+        --bs-gutter-x: 1rem;
+    }
+
+    .work .work_right {
+        padding-left: 0rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .work .work_left .work_img .work_overley small {
+        display: block;
+    }
+
+    .work .work_right ul {
+        margin-top: 3rem;
+        margin-left: 28%;
+    }
+
+    .service .service_item img {
+        padding-right: 0rem;
+        margin: auto;
+    }
+
+    .process .procces_row_2 h4 {
+        margin: auto;
+        padding-top: 2rem;
+    }
+
+    .team_img {
+        margin-top: 2rem;
+    }
+
+    .study .study_img .study_overley {
+        padding-top: 2rem;
+    }
+
+    .study .study_img .study_overley h4 {
+        margin-bottom: 1rem;
+    }
+
+    .study_middle {
+        margin: auto;
+    }
+
+    .testimonial .clients_slide .client_item img {
+        width: unset;
+        margin-right: 0rem;
+        border-radius: 100%;
+    }
+
+    .contact .contact_left {
+        padding: 10rem;
+    }
+
+    .contact .contact_right {
+        text-align: center;
+    }
+
+    .contact .contact_right .contact_items {
+        margin-left: 30%;
+    }
+
+    .mobile {
+        padding-left: 4rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 769px) and (max-width:991px) {
+    html {
+        font-size: 45.5%;
+    }
+
+    .menu_btn i {
+        color: #fba419;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding-bottom: 0;
+        padding-bottom: 2rem;
+    }
+
+    .navbar-toggler {
+        background-color: aliceblue;
+    }
+
+    .menu_bar ul {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.748);
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+
+    .about_text .about_text_1 i {
+        font-size: 2rem;
+    }
+
+    .service .service_text {
+        margin-top: 0rem;
+        text-align: center;
+
+    }
+
+    .service .service_text p {
+        max-width: 60%;
+        margin: auto;
+    }
+
+    .service_right {
+        padding-left: 24rem;
+        margin-top: 5rem;
+    }
+
+    .work .work_left .row {
+        --bs-gutter-x: 1rem;
+    }
+
+    .work .work_right {
+        padding-left: 0rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .work .work_right ul {
+        margin-top: 3rem;
+        margin-left: 30rem;
+    }
+
+    .team_img {
+        margin-top: 2rem;
+    }
+
+    .study .study_img .study_overley {
+        padding-top: 2rem;
+    }
+
+    .study .study_img .study_overley h4 {
+        margin-bottom: 1rem;
+    }
+
+    .contact .contact_left {
+        padding: 20rem 10rem 20rem 10rem;
+    }
+
+    .contact .contact_right {
+        text-align: center;
+    }
+
+    .contact .contact_right .contact_items {
+        margin-left: 33%;
+    }
+
+    .mobile {
+        padding-left: 4rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199.8px) {
+    html {
+        font-size: 50.5%;
+    }
+
+    .work .work_right ul li {
+        margin-bottom: 1.5rem;
+    }
+}

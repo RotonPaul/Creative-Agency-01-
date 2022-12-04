@@ -1,0 +1,15 @@
+.team {
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../images/team_bg.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+
+    .team_intro {
+        text-align: center;
+        margin-bottom: 8rem;
+
+        h1,
+        p {
+            color: #ffffff;
+        }
+    }
+
+}

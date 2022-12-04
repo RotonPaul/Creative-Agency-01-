@@ -1,0 +1,67 @@
+.about_text {
+
+    // padding-right: 4rem;
+    h1 {
+        color: #161616;
+
+        span {
+            color: #fba419;
+        }
+    }
+
+    .about_text_1 {
+        display: flex;
+        padding: 3rem 0;
+
+        i {
+            font-size: 3rem;
+            color: #565656;
+            margin-right: 2rem;
+        }
+
+        p {
+            max-width: 51rem;
+            font-weight: 300;
+            color: #252525;
+        }
+    }
+
+    small {
+        max-width: 56.5rem;
+        display: block;
+        font-weight: 700;
+        color: #252525;
+    }
+
+}
+
+.about_img {
+    position: relative;
+
+    .about_overley {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #161515c5;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all linear 0.5s;
+        transform: scale(0);
+
+
+        h3 {
+            margin-top: 100%;
+            color: #ffffff;
+            max-width: 30rem;
+            line-height: 3rem;
+            margin: auto;
+            margin-top: 90%;
+        }
+    }
+}
+.about_img:hover .about_overley{
+    opacity: 1;
+    transform: scale(1);
+}
